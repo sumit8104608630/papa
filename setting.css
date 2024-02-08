@@ -19,7 +19,7 @@
     flex-direction: column;
     width: fit-content;
     position: relative;
-    left: 35%;
+    left: 37%;
     margin-top: 55px;
     margin-bottom: 50px;
     height: fit-content;
@@ -29,18 +29,18 @@
 }
 @media (max-width: 819px) {
     .Setting{
-     left: 11%;
+     left: 27%;
     }
 }
 @media (max-width: 419px) {
     .Setting{
-        left: 15%;
+        left: 22%;
         font-size: 10px;
     }
 }
     @media (max-width: 280px) {
         .Setting{
-            left: 4%;
+            left: 10%;
             font-size: 10px;
         }
         i{
