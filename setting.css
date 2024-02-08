@@ -5,6 +5,9 @@
 
 .navbar{
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
     height: 50px;
     background-color: rgb(255, 226, 226);
     border-bottom: solid rgb(168, 37, 37);
@@ -16,29 +19,35 @@
     flex-direction: column;
     width: fit-content;
     position: relative;
-    left: 40%;
+    left: 35%;
     margin-top: 55px;
     margin-bottom: 50px;
     height: fit-content;
     justify-content: center;
-    box-shadow: 0 0 30px 0 rgb(165, 165, 165);
+   
     
 }
 @media (max-width: 819px) {
     .Setting{
-     left: 30%;
+     left: 11%;
     }
 }
 @media (max-width: 419px) {
     .Setting{
-        left: 21%;
+        left: 15%;
         font-size: 10px;
     }
 }
     @media (max-width: 280px) {
         .Setting{
-            left: 13%;
+            left: 4%;
             font-size: 10px;
+        }
+        i{
+            margin-right: 10px;
+        }
+        .span{
+            margin-left: 0px;
         }
 }
 .Links{
@@ -53,30 +62,34 @@
     width: fit-content;
     height: fit-content;
     padding: 20px;
-     
+  
     font-size: 150%;
 }
-.line{
+.span{
+    margin-left: 50px;
     width: 100%;
-    height: 1px;
-    background-color: rgb(132, 20, 20);
+    text-align: center;
 }
+
 .word{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: start;
+    border-radius: 0px 0px 15px 15px;
+    border-bottom: 2px solid  rgb(252, 212, 212);
     
 }
 .word:hover{
-    background-color: rgb(252, 212, 212);
+    background-color: rgb(216, 216, 216);
     border-radius: 10px;
 }
 .photo{
     border: solid 3px  rgb(132, 20, 20);
     border-radius: 50%;
-   width: 100px;
-   height: 100px;
+   width: 80px;
+   height: 80px;
    margin: 20px;
    
 }
@@ -89,4 +102,22 @@
 i{
     margin-left: 10px;
     margin-right: 20px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.names,.phone{
+text-decoration: none;
+}
+.names{
+    font-size: 25px;
+    color: black;
+}
+.phone{
+    color: rgb(133, 133, 133);
+    margin-bottom: 20px;
 }
